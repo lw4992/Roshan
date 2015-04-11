@@ -49,7 +49,6 @@ HeatRadiationBC::HeatRadiationBC(const std::string & name, InputParameters param
 		_idis[t]->get_source_vals() = src_vals;
 	}
 
-
 }
 
 void HeatRadiationBC::computeResidual()
